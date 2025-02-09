@@ -89,7 +89,7 @@ const Movies: React.FC<MProps> = () => {
         </div>
 
         {/* Movies output */}
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 mt-10">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-3  xl:grid-cols-4 mt-10">
           {movies?.map((movie: MoviesProps, key: number) => (
             <MovieCard
               title={movie?.titleText.text}
